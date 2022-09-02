@@ -8,7 +8,7 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
+    font-family: 'Lobster', cursive;
     font-weight: normal;
 }
 
@@ -18,7 +18,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #8428a3;
     color: #ecf0f1;
 }
 
@@ -46,51 +46,42 @@ section .container {
     justify-content: space-between;
 }
 
-.brands-list img {
-    height: 24px;
+.container_filmes {
+    width: 1366px;
+    margin: 0 auto;
 }
 
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
 
+.sinopse_dragon_ball {
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
-section .container {
-    align-items: flex-start;
+.sinopse_dragon_ball img {
+    height: 500px;
 }
 
-section {
-    padding: 24px 0;
+.sinopse_dragon_ball p {
+    display: flex;
+    justify-content: space-between;   
 }
 
-section h2 {
-    margin-bottom: 16px;
+.sinopse_dragon_ball a {
+    width: 12px;
 }
 
-section {
-    color: #182c61;
+#programation {
+    background-color: black
 }
 
-section p {
-    margin-bottom: 8px;
+#contact {
+    color: white;
+    background-color: black;
 }
 
-.store-front {
-    margin-right: 32px;
-}
-
-.social-links img {
-    height: 24px;
-}
-
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
+#contact .container h2{
+    color: white;
 }
 
 #contact .container {
@@ -103,40 +94,49 @@ section p {
 }
 
 form input,
-form textarea, 
-form button {
+form textarea {
     display: block;
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
-}
-
-form textarea {
-    resize: none;
-    height: 180px;
-}
-
-section h3{
-    margin-bottom: 16px;
-}
+    background-color: black; 
+    color: white;
+    }
 
 form button {
-    background-color: #182c61;
-    color: #ecf0f1;
-    border: none;
+    background-color: #8428a3;
+    color: white;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.botao-compra {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #8428a3;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+form button:hover, .botao-compra:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #314e9e;
-}
-
-input:focus, textarea:focus {
-    outline-color: #182c61;
+.endereco-unidades {
+    margin-right: 33%;
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f1;
     padding: 16px 0;
+    background-color: #8428a3;
+    color: #ecf0f1;
+}
+
+header li:hover {
+    text-decoration: underline;
 }
